@@ -1,0 +1,16 @@
+{
+  "apiID": "package_bcdd0c__c__function_aadhc4jure6cw",
+  "apiName": "test1023",
+  "label": {
+    "zh_CN": "test1023",
+    "en_US": ""
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": true,
+  "input": [],
+  "output": []
+}
