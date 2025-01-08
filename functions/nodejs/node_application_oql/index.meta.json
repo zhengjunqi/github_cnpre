@@ -1,8 +1,8 @@
 {
-  "apiID": "package_bcdd0c__c__function_aadhc4jure6cw",
-  "apiName": "test1023",
+  "apiID": "package_aab990__c__function_aadhh4dr4kcow",
+  "apiName": "node_application_oql",
   "label": {
-    "zh_CN": "test1023",
+    "zh_CN": "node_application_oql",
     "en_US": ""
   },
   "description": {
@@ -10,7 +10,7 @@
     "en_US": "Custom Function"
   },
   "longTaskMode": false,
-  "frontendSDKInvokable": true,
+  "frontendSDKInvokable": false,
   "input": [],
   "output": []
 }

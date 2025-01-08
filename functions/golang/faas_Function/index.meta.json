@@ -1,8 +1,8 @@
 {
-  "apiID": "package_bcdd0c__c__function_aadhhjxpyn2cu",
-  "apiName": "testg",
+  "apiID": "package_aab990__c__function_aadhh4ivizgbw",
+  "apiName": "faas_Function",
   "label": {
-    "zh_CN": "testg",
+    "zh_CN": "faas_Function",
     "en_US": ""
   },
   "description": {
@@ -10,7 +10,7 @@
     "en_US": "Custom Function"
   },
   "longTaskMode": false,
-  "frontendSDKInvokable": true,
+  "frontendSDKInvokable": false,
   "input": [],
   "output": []
 }

@@ -1,4 +1,4 @@
-package testg
+package ag
 
 import (
 	"context"
@@ -9,6 +9,7 @@ import (
  * 结构体属性支持自定义, 和 index.meta.json 中的 input 参数一一对应
  */
 type Params struct {
+	// ParamID string `json:"param_id"`
 }
 
 /*Result 函数出参定义
@@ -16,6 +17,7 @@ type Params struct {
  * 结构体属性支持自定义, 和 index.meta.json 中的 output 参数一一对应
  */
 type Result struct {
+	// ResultID string `json:"result_id"`
 }
 
 /*Handler 函数入口
