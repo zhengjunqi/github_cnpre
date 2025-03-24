@@ -1,0 +1,16 @@
+{
+  "apiID": "package_ca2318__c__function_aadh3pnpkhugs",
+  "apiName": "an1",
+  "label": {
+    "zh_CN": "an1",
+    "en_US": ""
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": true,
+  "input": [],
+  "output": []
+}
