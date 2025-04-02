@@ -1,8 +1,8 @@
 {
-  "apiID": "package_aab990__c__function_aadhhxeeo5wti",
+  "apiID": "package_4fd4d5__c__function_aadhcpfptmecc",
   "apiName": "application_Msg_create_go",
   "label": {
-    "zh_CN": "application_Msg_create_go",
+    "zh_CN": "application.Msg.create-go",
     "en_US": ""
   },
   "description": {
@@ -11,6 +11,23 @@
   },
   "longTaskMode": false,
   "frontendSDKInvokable": false,
-  "input": [],
-  "output": []
+  "input": [
+    {
+      "key": "demo_input_field",
+      "type": "Text",
+      "required": false,
+      "label": "DemoInputField",
+      "description": "Custom Field",
+      "example": "Sample Text"
+    }
+  ],
+  "output": [
+    {
+      "key": "demo_output_field",
+      "type": "Text",
+      "label": "DemoOutputField",
+      "description": "Custom Field",
+      "example": "Sample Text"
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 {
-  "apiID": "package_aab990__c__function_aadhhxmfkiomi",
+  "apiID": "package_4fd4d5__c__function_aadhcpftyjqac",
   "apiName": "func_GetEventInfo",
   "label": {
-    "zh_CN": "func_GetEventInfo",
+    "zh_CN": "application.Event（获取租户信息）",
     "en_US": ""
   },
   "description": {

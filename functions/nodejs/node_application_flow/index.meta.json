@@ -1,17 +1,16 @@
 {
-  "apiID": "package_aab990__c__function_aadhhxo6lb2ki",
+  "apiID": "package_4fd4d5__c__function_aadhcpfmnugee",
   "apiName": "node_application_flow",
   "label": {
     "zh_CN": "node_application_flow",
-    "en_US": null
+    "en_US": ""
   },
   "description": {
     "zh_CN": "自定义函数",
     "en_US": "Custom Function"
   },
-  "isPublicAPI": false,
-  "frontendSDKInvokable": true,
   "longTaskMode": false,
+  "frontendSDKInvokable": false,
   "input": [],
   "output": []
 }

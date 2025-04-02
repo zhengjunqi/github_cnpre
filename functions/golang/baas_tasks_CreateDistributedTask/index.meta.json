@@ -1,5 +1,5 @@
 {
-  "apiID": "package_aab990__c__function_aadhhxmfkiidi",
+  "apiID": "package_4fd4d5__c__function_aadhcpfthxwbc",
   "apiName": "baas_tasks_CreateDistributedTask",
   "label": {
     "zh_CN": "baas_tasks_CreateDistributedTask",
@@ -10,7 +10,7 @@
     "en_US": "Custom Function"
   },
   "longTaskMode": false,
-  "frontendSDKInvokable": false,
+  "frontendSDKInvokable": true,
   "input": [],
   "output": []
 }

@@ -1,5 +1,5 @@
 {
-  "apiID": "package_aab990__c__function_aadhhxmfkiaai",
+  "apiID": "package_4fd4d5__c__function_aadhcpfwdtaac",
   "apiName": "application_Data_NewTransaction",
   "label": {
     "zh_CN": "application_Data_NewTransaction",
@@ -10,7 +10,7 @@
     "en_US": "Custom Function"
   },
   "longTaskMode": false,
-  "frontendSDKInvokable": false,
+  "frontendSDKInvokable": true,
   "input": [],
   "output": []
 }

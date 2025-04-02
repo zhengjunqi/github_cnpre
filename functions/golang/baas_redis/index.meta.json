@@ -1,5 +1,5 @@
 {
-  "apiID": "package_aab990__c__function_aadhhxo6lcqli",
+  "apiID": "package_4fd4d5__c__function_aadhcytj7veae",
   "apiName": "baas_redis",
   "label": {
     "zh_CN": "baas_redis",
@@ -10,7 +10,7 @@
     "en_US": "Custom Function"
   },
   "longTaskMode": false,
-  "frontendSDKInvokable": false,
+  "frontendSDKInvokable": true,
   "input": [],
   "output": []
 }

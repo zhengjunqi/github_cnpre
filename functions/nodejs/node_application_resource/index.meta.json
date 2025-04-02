@@ -1,8 +1,8 @@
 {
-  "apiID": "package_aab990__c__function_aadhptlfkbmdi",
-  "apiName": "ag",
+  "apiID": "package_4fd4d5__c__function_aadhcpfs7jgae",
+  "apiName": "node_application_resource",
   "label": {
-    "zh_CN": "ag",
+    "zh_CN": "node_application_resource",
     "en_US": ""
   },
   "description": {
@@ -10,7 +10,7 @@
     "en_US": "Custom Function"
   },
   "longTaskMode": false,
-  "frontendSDKInvokable": true,
+  "frontendSDKInvokable": false,
   "input": [],
   "output": []
 }

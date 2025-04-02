@@ -19,6 +19,7 @@ type Params struct {
  * 结构体属性支持自定义, 和 index.meta.json 中的 output 参数一一对应
  */
  type Result struct {
+	Output string `json:"output"`
 }
 
 /*Handler 函数入口
@@ -30,12 +31,16 @@ func Handler(ctx context.Context, params *Params) (*Result, error) {
 	// 日志功能
 	application.GetLogger(ctx).Infof("%s 函数开始执行, logid: %s", time.Now().Format("2006-01-02 15:04:05.999"), faas.Tool.GetLogID(ctx))
 
-	var result map[string]interface{}
+	result := struct {
+			Output string `json:"output"`
+	}{}
 
-	err := faas.Function("node_application_global_var").Invoke(ctx, map[string]interface{}{"demo_input_field":"hello world"}, &result)
+	err := faas.Function("funct_application_App").Invoke(ctx, map[string]interface{}{"input": "测试参数"}, &result)
 	if err != nil {
 			panic(err)
 	}
 
-	return &Result{}, nil
+	return &Result{
+			Output: result.Output,
+	}, nil
 }

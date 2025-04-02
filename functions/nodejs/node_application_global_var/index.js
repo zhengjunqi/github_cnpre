@@ -9,7 +9,7 @@
  *
  * @return 函数的返回数据
  */
- module.exports = async function (params, context, logger) {
+module.exports = async function (params, context, logger) {
   // 日志功能
   // logger.info(`${new Date()} 函数开始执行`);
 
@@ -30,6 +30,5 @@
   return {
     "demo_output_field": "ni hao"
   }
-
   // 在这里补充业务代码
 }

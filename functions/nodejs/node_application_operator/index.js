@@ -9,7 +9,7 @@
  *
  * @return 函数的返回数据
  */
- module.exports = async function (params, context, logger) {
+module.exports = async function (params, context, logger) {
   // 日志功能
   // logger.info(`${new Date()} 函数开始执行`);
 
@@ -146,7 +146,7 @@
   filter_records = await application.data.object('object_6aecfa241c6')
   .select('_id','name','age','multi_option')
   .where({
-    "multi_option": application.operator.hasAnyOf("a","option_cc6bc48235d")
+    "multi_option": application.operator.hasAnyOf("option_fbfd50d75a2","option_bfd50d75a23")
   })
   .find()
   logger.info("选项里有A或者B的记录",filter_records)
@@ -155,7 +155,7 @@
   filter_records = await application.data.object('object_6aecfa241c6')
   .select('_id','name','age','multi_option')
   .where({
-    "multi_option": application.operator.hasNoneOf("option_cc6bc48235d","option_1736153988682_17b")
+    "multi_option": application.operator.hasNoneOf("option_fbfd50d75a2","option_bfd50d75a23")
   })
   .find()
   logger.info("选项里既没有A也没有B的记录",filter_records)
