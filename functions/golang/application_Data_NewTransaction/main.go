@@ -8,6 +8,7 @@ import (
 	cUtils "github.com/byted-apaas/server-common-go/utils"
 )
 
+
 /*Params 函数入参定义
  * 结构体名称不支持自定义, 必须为 Params
  * 结构体属性支持自定义, 和 index.meta.json 中的 input 参数一一对应
