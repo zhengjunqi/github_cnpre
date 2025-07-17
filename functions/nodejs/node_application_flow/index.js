@@ -39,5 +39,6 @@ module.exports = async function (params, context, logger) {
   // result = await application.flow.getApprovalInstance(result.approvalInstanceIds[0])
   // logger.info(result)
 
+  
   // 在这里补充业务代码
 }
